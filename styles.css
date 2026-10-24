@@ -163,6 +163,7 @@ body{font-size:var(--body-size);line-height:1.6}
 .institution-wrap{max-width:1400px;width:calc(100% - 80px);margin-inline:auto}
 .stanford-identity{background:#8c1515;color:#fff;min-height:30px}
 .stanford-identity .stanford-signature{display:inline-block;font:300 20px/1 Stanford,Georgia,serif;padding:5px 0;color:#fff;text-decoration:none}
+.department-affiliation{background:#fff;padding:28px 0 36px}.department-affiliation a{display:block;width:440px;max-width:100%}.department-affiliation img{display:block;width:100%;height:auto}.department-affiliation a:focus-visible{outline:3px solid #8c1515;outline-offset:8px}
 .stanford-global{display:block;background:#8c1515;color:#fff;border:0;padding:32px 0;font:16px/1.5 Arial,Helvetica,sans-serif;letter-spacing:normal}
 .stanford-global>.institution-wrap{display:flex;gap:45px;align-items:flex-start}
 .stanford-global .stanford-signature{font:300 30px/.95 Stanford,Georgia,serif;color:#fff;text-decoration:none;flex-shrink:0;text-align:center}
