@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="A CoDI motion study: individual particles find a shared direction.">
+  <title>CoDI — Coordination in motion</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="points.js" defer></script>
+  <script src="animation.js" defer></script>
+</head>
+<body><a class="study-skip" href="#study-main">Skip to main content</a><div class="stanford-identity"><div class="institution-wrap"><a class="stanford-signature" href="https://www.stanford.edu">Stanford University</a></div></div>
+  <main class="study" id="study-main" tabindex="-1">
+    <header class="masthead">
+      <a class="wordmark" href="../" aria-label="Back to the CoDI website">CoDI<span class="wordmark-dot" aria-hidden="true">.</span></a>
+      <span class="study-label">Coordination in motion <span aria-hidden="true">/</span> 01</span>
+      <a class="back-link" href="../">Back to the website <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <section class="intro" aria-labelledby="study-title">
+      <p class="eyebrow">Coordination in motion</p>
+      <h1 id="study-title">Many paths. A shared direction.</h1>
+      <p class="intro-copy">Individual particles drift apart, then coordinate to form something recognizable.</p>
+    </section>
+
+    <section class="motion" aria-label="Coordination animation">
+      <div class="playback" aria-label="Animation controls">
+        <div class="playback-buttons">
+          <button id="toggle" class="button primary" type="button" aria-label="Pause animation"><span id="toggle-icon" aria-hidden="true">Ⅱ</span><span id="toggle-text">Pause</span></button>
+          <button id="replay" class="button" type="button"><span aria-hidden="true">↻</span> Replay</button>
+          <button id="show-word" class="button text-button" type="button">Show CoDI</button>
+        </div>
+        <div class="timeline">
+          <label for="scrub" class="sr-only">Animation position</label>
+          <input type="range" id="scrub" min="0" max="1000" step="1" value="0" aria-valuetext="A shared identity">
+          <div class="timeline-labels" aria-hidden="true"><span>Identity</span><span>Disperse</span><span>Drift</span><span>Coordinate</span></div>
+        </div>
+      </div>
+      <p class="motion-help">Press Esc to pause</p>
+      <div class="canvas-wrap">
+        <canvas id="coordination" aria-label="Colored particles form CoDI, spread into a ring, drift, and return to CoDI." role="img">CoDI — Coordinated Decision Intelligence Center</canvas>
+        <p id="canvas-fallback" class="canvas-fallback" hidden>CoDI</p>
+        <div class="stage-note"><span class="live-dot" aria-hidden="true"></span><span id="phase-label">A shared identity</span></div>
+        <span class="particle-note" aria-hidden="true">941 particles · one identity</span>
+      </div>
+      <p class="center-name">Coordinated Decision Intelligence Center</p>
+
+      <p id="motion-note" class="motion-note">Every particle keeps its color. Every path has a way back.</p>
+      <p id="status" class="sr-only" role="status" aria-live="polite"></p>
+    </section>
+    <footer><span>CoDI / Stanford University</span><span>Coordination in motion</span></footer>
+  </main>
+<footer class="stanford-global"><div class="institution-wrap"><a class="stanford-signature" href="https://www.stanford.edu">Stanford<br>University</a><div><nav aria-label="Stanford resources"><ul><li><a href="https://www.stanford.edu">Stanford Home</a></li><li><a href="https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li><li><a href="https://www.stanford.edu/search/">Search Stanford</a></li><li><a href="https://emergency.stanford.edu">Emergency Info</a></li></ul><ul><li><a href="https://www.stanford.edu/site/terms/">Terms of Use</a></li><li><a href="https://www.stanford.edu/site/privacy/">Privacy</a></li><li><a href="https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li><li><a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li><li><a href="https://studentservices.stanford.edu/more-resources/student-policies/non-academic/non-discrimination">Non-Discrimination</a></li><li><a href="https://www.stanford.edu/site/accessibility">Accessibility</a></li></ul></nav><p>© Stanford University. &nbsp; Stanford, California 94305.</p></div></div></footer>
+</body>
+</html>
