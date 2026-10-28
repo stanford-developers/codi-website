@@ -30,12 +30,12 @@
   const lerp = (a,b,t) => a+(b-a)*t;
 
   function phaseAt(t) {
-    if (t < 2.8) return {name:'A shared identity',mode:'word',p:0};
-    if (t < 5.5) return {name:'Exploring new paths',mode:'transport',p:ease((t-2.8)/2.7)};
-    if (t < 6.1) return {name:'Room to move',mode:'ring',p:0};
-    if (t < 11.9) return {name:'Different paths. Different rhythms.',mode:'drift',p:t-6.1};
-    if (t < 22.9) return {name:'Finding a shared direction',mode:'drift',p:DRIFT_DURATION*(1-ease((t-11.9)/11))};
-    if (t < 25.6) return {name:'Coming together',mode:'transport',p:1-ease((t-22.9)/2.7)};
+    if (t < 1.4) return {name:'A shared identity',mode:'word',p:0};
+    if (t < 4.1) return {name:'Exploring new paths',mode:'transport',p:ease((t-1.4)/2.7)};
+    if (t < 4.7) return {name:'Room to move',mode:'ring',p:0};
+    if (t < 10.5) return {name:'Different paths. Different rhythms.',mode:'drift',p:t-4.7};
+    if (t < 21.5) return {name:'Finding a shared direction',mode:'drift',p:DRIFT_DURATION*(1-ease((t-10.5)/11))};
+    if (t < 24.2) return {name:'Coming together',mode:'transport',p:1-ease((t-21.5)/2.7)};
     return {name:'Coordinated. Recognizable. CoDI.',mode:'word',p:0};
   }
   function position(particle, phase) {
